@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "MERN Stack (MongoDB, Express.js, React.js, Node.js) to create a simple note app.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "env-cmd -f ./config/config.env nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HananShpigler/noter.git"
+  },
+  "author": "hanan shpigler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HananShpigler/noter/issues"
+  },
+  "homepage": "https://github.com/HananShpigler/noter#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "env-cmd": "^10.1.0",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.5"
+  }
+}
