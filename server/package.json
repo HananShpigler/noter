@@ -4,7 +4,7 @@
   "description": "MERN Stack (MongoDB, Express.js, React.js, Node.js) to create a simple note app.",
   "main": "server.js",
   "scripts": {
-    "dev": "env-cmd -f ./config/config.env nodemon ./server.js"
+    "dev": "env-cmd -f ./config/.env nodemon ./server.js"
   },
   "repository": {
     "type": "git",
